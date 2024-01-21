@@ -7,7 +7,7 @@ const Article = (props) => {
   return (
     <Container className="my-3">
       <Box className="card" style={{ width: "18rem" }} sx={{ '@media (max-width:600px)': { marginLeft:'7rem' } }}>
-        <img src={imageUrl} className="card-img-top" alt="..." />
+        <img src={imageUrl} className="card-img-top" alt="https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_01/2705191/nbc-social-default.png" />
         <div className="card-body">
           <h5 className="card-title" style={{color:"black" ,fontFamily:'times-new-roman'}}>{title}...</h5>
           <p className="card-text" style={{color:"grey"}}>{description}...</p>

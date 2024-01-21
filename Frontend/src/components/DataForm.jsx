@@ -64,7 +64,7 @@ const DataForm = () => {
           let str = `
                     1)Focus on a balanced diet that includes fruits, vegetables, whole grains, lean proteins, and healthy fats.
                     2)Limit the intake of processed foods, sugary beverages, and high-calorie snacks.
-                    3)Practice stress-reducing activities, such as meditation, deep breathing, yoga, or regular exercise.
+                    3)Drink water throughout the day.
                     4)Engage in regular physical activity. Aim for at least 150 minutes of moderate-intensity aerobic exercise per week.
                     5)Practice stress-reducing activities, such as meditation, deep breathing, yoga, or regular exercise.
                     `
