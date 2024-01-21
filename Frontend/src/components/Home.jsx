@@ -13,9 +13,13 @@ const Home = () => {
   };
   const [articles, setArticles] = useState([]);
   const fetchMoreData = async () => {
-    let url = `https://newsapi.org/v2/everything?q=diabetes&q=health&q=heartdisease&sortBy=popularity&pageSize=9&apiKey=2743fee2a44e429dac4c35ce05307923&q=fitness`;
+    // let url = `https://newsapi.org/v2/everything?q=diabetes&q=health&q=heartdisease&sortBy=popularity&pageSize=9&apiKey=2743fee2a44e429dac4c35ce05307923&q=fitness`;
+    let apikey = '8a72175847209b91f0085bc7cf73e46a';
+    let url = 'https://gnews.io/api/v4/search?q=diabetes&q=health&q=heartdisease&q=fitness&lang=en&max=10&apikey=' + apikey;
+
     let data = await fetch(url);
     let parsedData = await data.json();
+    console.log(parsedData)
     setArticles(articles.concat(parsedData.articles));
   };
   useEffect(() => {
@@ -38,12 +42,12 @@ const Home = () => {
                     element.description ? element.description.slice(0, 88) : ""
                   }
                   imageUrl={
-                    element.urlToImage
-                      ? element.urlToImage
+                    element.image
+                      ? element.image
                       : "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_01/2705191/nbc-social-default.png"
                   }
                   newsUrl={element.url}
-                  author={element.author}
+                  author={element.source.name}
                   date={element.publishedAt}
                 />
               </div>
