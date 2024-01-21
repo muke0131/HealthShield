@@ -10,4 +10,4 @@ threadpoolctl==3.2.0
 tzdata==2023.4
 django-cors-headers==3.13.0
 djangorestframework==3.14.0
-gunicorn==19.7.1
+gunicorn==19.9.0
