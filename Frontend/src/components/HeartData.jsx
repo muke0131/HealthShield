@@ -149,8 +149,8 @@ const HeartData = () => {
                         <FormControlLabel value="1" control={<Radio />} label="1" />
                         <FormControlLabel value="2" control={<Radio />} label="2" />
                     </RadioGroup>
-                    <FormControlLabel required sx={{ mr: '6rem', color: 'gray' }} control={<Checkbox checked={checked} onChange={() => setChecked(!checked)} />} label="Fasting Blood Sugar" />
-                    <FormControlLabel required sx={{ mr: '4rem', color: 'gray' }} control={<Checkbox checked={checked2} onChange={() => setChecked2(!checked2)} />} label="Exercise Induced Angina" />
+                    <FormControlLabel sx={{ mr: '6rem', color: 'gray' }} control={<Checkbox checked={checked} onChange={() => setChecked(!checked)} />} label="Fasting Blood Sugar" />
+                    <FormControlLabel sx={{ mr: '4rem', color: 'gray' }} control={<Checkbox checked={checked2} onChange={() => setChecked2(!checked2)} />} label="Exercise Induced Angina" />
 
                     <FormLabel sx={{ marginRight: '14.5rem', marginTop: '1rem' }}>Slope</FormLabel>
                     <RadioGroup

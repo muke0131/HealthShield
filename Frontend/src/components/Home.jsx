@@ -15,7 +15,7 @@ const Home = () => {
   const fetchMoreData = async () => {
     // let url = `https://newsapi.org/v2/everything?q=diabetes&q=health&q=heartdisease&sortBy=popularity&pageSize=9&apiKey=2743fee2a44e429dac4c35ce05307923&q=fitness`;
     let apikey = '8a72175847209b91f0085bc7cf73e46a';
-    let url = 'https://gnews.io/api/v4/search?q=diabetes&q=health&q=heartdisease&q=fitness&lang=en&max=10&apikey=' + apikey;
+    let url = 'https://gnews.io/api/v4/search?q=diabetes&q=heartdisease&lang=en&max=10&apikey=' + apikey;
 
     let data = await fetch(url);
     let parsedData = await data.json();
