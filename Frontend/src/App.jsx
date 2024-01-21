@@ -6,7 +6,6 @@ import Navbar from "./components/Navbar";
 import DataForm from "./components/DataForm";
 import { BrowserRouter,Routes,Route } from "react-router-dom";
 function App() {
-
   return (
     <BrowserRouter>
     <Navbar/>
