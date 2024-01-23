@@ -1,6 +1,6 @@
 # HealthShield
 
-Website URL -> <a href="https://health-shield.onrender.com/">https://health-shield.onrender.com/</a>
+Website URL -> <a href="https://health-shield.onrender.com/" target="_blank">https://health-shield.onrender.com/</a>
 
 HealthShield is a cutting-edge web application designed to empower users in predicting and managing their risk of heart disease and diabetes. Leveraging advanced machine learning algorithms and comprehensive health data analysis, this application provides personalized insights to help users make informed decisions about their lifestyle and healthcare. <br>
 <h3>Key Features</h3> - 
